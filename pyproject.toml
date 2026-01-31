@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [ { name = "Alex Colpitts", email = "alex.colpitts@gmail.com" } ]
-dependencies = ["torch>=2.0.0"]
+dependencies = ["torch>=2.0.0", "pytest"]
 
 [project.urls]
 Homepage = "https://github.com/alexcolpitts96/torch-kindling"
