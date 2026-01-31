@@ -1,0 +1,5 @@
+"""Activation functions and utilities."""
+
+from .utils import get_activation
+
+__all__ = ["get_activation"]
