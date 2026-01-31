@@ -1,7 +1,8 @@
 """Tests for reversible instance normalization."""
 
-import torch
 import pytest
+import torch
+
 from torch_kindling.norm import RIN
 
 
