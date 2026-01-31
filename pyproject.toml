@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "torch-kindling"
+version = "0.0.0"
+description = "A simple torch layer library for research replication."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [ { name = "Alex Colpitts", email = "alex.colpitts@gmail.com" } ]
+dependencies = ["torch>=2.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/alexcolpitts96/torch-kindling"
+Issues = "https://github.com/alexcolpitts96/torch-kindling/issues"
+
+[tool.hatch.build.targets.wheel]
+include = ["torch_kindling", "README.md", "LICENSE"]
